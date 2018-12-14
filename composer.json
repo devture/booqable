@@ -1,0 +1,23 @@
+{
+    "name": "devture/booqable",
+    "type": "library",
+    "description": "Library that makes interacting with the Booqable API easy",
+    "keywords": ["booqable"],
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Slavi Pantaleev",
+            "email": "slavi@devture.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.2.0",
+		"guzzlehttp/guzzle": "6.*",
+		"symfony/property-access": "4.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Devture\\Component\\Booqable\\": "src/"
+        }
+    }
+}
